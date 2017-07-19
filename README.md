@@ -1,4 +1,4 @@
-# amr-corpus-spanish
+# Abstract Meaning Representations in Spanish
 
 This repository contains the Spanish AMR annotations for 50 sentences from the [Little Prince Corpus](https://amr.isi.edu/download/amr-bank-v1.6.txt). For details about AMR annotations in Spanish please see the following publication:
 
