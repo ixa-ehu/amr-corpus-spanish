@@ -1,0 +1,504 @@
+# ::id lpp_en.1 ::annotator lpp_1943.43
+# ::tok Thus you can imagine my amazement , at sunrise , when I was awakened by an odd little voice .
+(c / cause-01
+	:ARG1 (p / possible-01
+		:ARG1 (i2 / imagine-01
+			:ARG0 (y / you)
+			:ARG1 (a / amaze-01
+				:ARG1 (i / i)
+                        	:time (s / sunrise
+					:time-of (w / wake-01
+						:ARG0 (v / voice
+							:mod (o / odd)
+							:mod (l / little))
+						:ARG1 i))))))
+	
+# ::id lpp_en.2 ::annotator lpp_1943.64 
+# ::tok He answered me : " That does n't matter . "  
+(a / answer-01
+	:ARG0 (h / he)
+	:ARG1 (i / i)
+	:ARG2 (m2 / matter-01
+		:ARG1 (t / that)
+		:polarity -))
+
+# ::id lpp_en.3 ::annotator lpp_1943.65 
+# ::tok Draw me a sheep ...  
+(d / draw-01
+	:ARG0 (y / you)
+	:ARG1 (s / sheep)
+	:ARG2 (i / i)
+	:mode imperative)
+
+# ::id lpp_en.4 ::annotator lpp_1943.72
+# ::tok Where I live , everything is very small .
+(s / small
+	:degree (v / very)
+	:domain (e / everything)
+	:location (l2 / live-01
+		:ARG0 (i / i)))
+
+# ::id lpp_en.5 ::annotator lpp_1943.118
+# ::tok That is funny !   
+(f2 / funny
+	:domain (t2 / that))
+
+# ::id lpp_en.6 ::annotator lpp_1943.122 
+# ::tok Which is your planet ?
+(p / planet
+	:poss (y / you)
+	:domain (a / amr-unknown))
+
+# ::id lpp_en.7 ::annotator lpp_1943.130 
+# ::tok My little man , where do you come from ? 
+(s / say-01
+	:ARG1 (c / come-01
+		:ARG1 (y / you)
+		:ARG3 (a / amr-unknown))
+	:ARG2 (m / man
+		:mod (l / little)
+		:poss (i / I)))
+
+# ::id lpp_en.8 ::annotator lpp_1943.150
+# ::tok When an astronomer discovers one of these he does not give it a name , but only a number .  
+(g / give-01
+	:ARG0 (a / astronomer)
+	:ARG1 (n2 / number)
+	:ARG2 (t / thing :quant 1
+		:ARG1-of (i / include-91
+			:ARG2 (t2 / this)))
+	:mod (o2 / only)
+	:time (d / discover-01
+		:ARG0 a
+		:ARG1 t)
+	:ARG1-of (i2 / instead-of-91
+		:ARG2 (n3 / name-01
+			:ARG0 a
+			:ARG1 t)))
+
+# ::id lpp_en.9 ::annotator lpp_1943.181
+# ::tok Children should always show great forbearance toward grown - up people . 
+(r / recommend-01
+	:ARG1 (s / show-01
+		:ARG0 (c / child)
+		:ARG1 (f / forbearance
+			:mod (g / great))
+		:ARG2 (g2 / grown-up)
+		:time (a / always)))
+
+# ::id lpp_en.10 ::annotator lpp_1943.182
+# ::tok But certainly , for us who understand life , figures are a matter of indifference . 
+(c2 / contrast-01
+	:ARG2 (c / certain
+		:domain (i2 / indifferent-01
+			:ARG1 (w2 / we
+				:ARG0-of (u / understand-01
+					:ARG1 (l / life)))
+			:ARG2 (f2 / figure))))
+
+# ::id lpp_en.11 ::annotator lpp_1943.190
+# ::tok To forget a friend is sad . 
+(s / sad-02
+	:ARG0 (f3 / forget-01
+		:ARG1 (p / person
+			:ARG0-of (h / have-rel-role-91
+				:ARG2 (f / friend)))))
+
+# ::id lpp_en.12 ::annotator lpp_1943.191
+# ::tok Not every one has had a friend . 
+(h / have-03 :polarity -
+	:ARG0 (e / everyone)
+	:ARG1 (p / person
+		:ARG0-of (h2 / have-rel-role-91
+			:ARG1 e
+			:ARG2 (f / friend))))
+
+# ::id lpp_en.13 ::annotator lpp_1943.196
+# ::tok But I am not at all sure of success . 
+(c / contrast-01
+	:ARG2 (s / sure-02 :polarity -
+		:ARG0 (i / i)
+		:degree (a / at
+			:op1 (a2 / all))
+		:ARG1-of (s2 / succeed-01
+			:ARG0 i)))
+
+# ::id lpp_en.14 ::annotator lpp_1943.288
+# ::tok But the little prince made no reply . 
+(c / contrast-01
+	:ARG2 (r / reply-01 :polarity -
+		:ARG0 (p / prince
+			:mod (l / little))))
+
+# ::id lpp_en.15 ::annotator lpp_1943.300
+# ::tok And I had so little drinking-water left that I had to fear for the worst .
+(a / and
+	:op1 (h / have-03
+		:ARG0 (i / i)
+		:ARG1 (w / water
+			:purpose (d / drink-01)
+			:mod (l / little
+				:degree (s / so))
+			:ARG1-of (l2 / leave-17))
+		:ARG0-of (o / obligate-01
+			:ARG1 i
+			:ARG2 (f / fear-01
+				:ARG0 i
+				:ARG1 (b / bad-07
+					:degree (m / most))))))
+
+# ::id lpp_en.16 ::annotator lpp_1943.394
+# ::tok " I think it is time for breakfast , " she added an instant later . 
+(a / add-01
+	:ARG0 (s / she)
+	:ARG1 (t / think-01
+		:ARG0 s
+		:ARG1 (t2 / time
+			:purpose (b / breakfast-01)))
+	:time (l / late
+		:degree (m / more
+			:quant (i / instant))))
+
+# ::id lpp_en.17 ::annotator lpp_1943.438
+# ::tok But , as he said , " One never knows ! "
+(c / contrast-01
+	:ARG2 (s / say-01
+		:ARG0 (h / he)
+		:ARG1 (k / know-01 :polarity -
+			:ARG0 (o / one))))
+
+# ::id lpp_en.18 ::annotator lpp_1943.441
+# ::tok Volcanic eruptions are like fires in a chimney . 
+(e / erupt-0
+	:ARG1 (v / volcano)
+	:ARG1-of (r / resemble-01
+		:ARG2 (f / fire
+			:location (c / chimney))))
+
+# ::id lpp_en.19 ::annotator lpp_1943.445
+# ::tok He believed that he would never want to return .
+(b / believe-01
+	:ARG0 (h / he)
+	:ARG1 (w / want-01 :polarity -
+		:ARG0 h
+		:ARG1 (r / return-01
+			:ARG1 h)
+		:time (e / ever)))
+
+# ::id lpp_en.20 ::annotator lpp_1943.454 
+# ::tok I ask your forgiveness . 
+(a / ask-02
+	:ARG0 (i / i)
+	:ARG1 (f / forgive-01
+		:ARG0 y
+		:ARG1 i)
+	:ARG2 (y / you))
+
+# ::id lpp_en.21 ::annotator lpp_1943.477
+# ::tok Now go !
+(g / go-02 :mode imperative
+	:ARG0 (y / you)
+	:time (n / now))
+	
+# ::id lpp_en.22 ::annotator lpp_1943.482
+# ::tok He began , therefore , by visiting them , in order to add to his knowledge . 
+(b / begin-01
+	:ARG0 (h / he)
+	:ARG2 (v / visit-01
+		:ARG0 h
+		:ARG1 (t2 / they))
+	:mod (t / therefore)
+	:purpose (a / add-02
+		:ARG0 v
+		:ARG2 (k / knowledge
+			:poss h)))
+
+# ::id lpp_en.23 ::annotator lpp_1943.489
+# ::tok To them , all men are subjects .
+(o / opine-01
+	:ARG0 (t2 / they)
+	:ARG1 (s2 / subject
+		:domain (m2 / man
+			:mod (a2 / all))))
+
+# ::id lpp_en.24 ::annotator lpp_1943.491
+# ::tok The little prince looked everywhere to find a place to sit down ; but the entire planet was crammed and obstructed by the king 's magnificent ermine robe . 
+(a / and
+	:op1 (c / cram-01
+		:ARG1 (r2 / robe
+			:mod (e2 / ermine)
+			:mod (m / magnificent)
+			:poss (k / king))
+		:ARG2 (p3 / planet
+			:extent (e3 / entire)))
+	:op2 (o / obstruct-01
+		:ARG0 r2
+		:ARG1 p3)
+	:concession (l / look-01
+		:ARG0 (p / prince
+			:mod (l2 / little))
+		:ARG1 (p2 / place
+			:purpose (s / sit-down-02
+				:ARG1 p))
+		:location (e / everywhere)))
+
+# ::id lpp_en.25 ::annotator lpp_1943.493
+# ::tok " It is contrary to etiquette to yawn in the presence of a king , " the monarch said to him . 
+(s / say-01
+	:ARG0 (m / monarch)
+	:ARG1 (c / contrary-01
+		:ARG1 (y / yawn-01
+			:location (k / king))
+		:ARG2 (e / etiquette))
+	:ARG2 (h / he))
+
+# ::id lpp_en.26 ::annotator lpp_1943.496
+# ::tok “ I can 't stop myself , " replied the little prince , thoroughly embarrassed .
+(r / reply-01
+	:ARG0 (p / prince
+		:mod (l / little))
+	:ARG2 (p2 / possible-01 :polarity -
+		:ARG1 (s / stop-01
+			:ARG0 p
+			:ARG1 p))
+	:manner (e / embarrass-01
+		:ARG1 p
+		:degree (t / thorough)))
+
+# ::id lpp_en.27 ::annotator lpp_1943.497
+# ::tok I have come on a long journey , and I have had no sleep ... 
+(a / and
+	:op1 (c / come-01
+		:ARG1 (i / i)
+		:ARG2 (j / journey-01
+			:ARG0 i
+			:ARG1-of (l / long-03)))
+	:op2 (s / sleep-01 :polarity -
+		:ARG0 i))
+
+# ::id lpp_en.28 ::annotator lpp_1943.500
+# ::tok It is years since I have seen anyone yawning .
+(p / pass-03
+	:ARG1 (y3 / year)
+	:time (s3 / since
+		:op1 (s / see-01
+			:ARG0 (i / i)
+			:ARG1 (a / anyone
+				:ARG0-of (y / yawn-01)))))
+
+# ::id lpp_en.29 ::annotator lpp_1943.513
+# ::tok He was an absolute monarch .
+(m / monarch
+	:mod (a / absolute)
+	:domain (h2 / he))
+
+# ::id lpp_en.30 ::annotator lpp_1943.517
+# ::tok " May I sit down ? " came now a timid inquiry from the little prince . 
+(i / inquire-01
+	:ARG0 (p / prince
+		:mod (l / little))
+	:ARG1 (p2 / permit-01 :mode interrogative
+		:ARG1 (s / sit-down-02
+			:ARG1 p))
+	:manner (t / timid)
+	:time (n / now))
+
+# ::id lpp_en.31 ::annotator lpp_1943.564
+# ::tok Do not go . 
+(g / go-02 :polarity - :mode imperative
+	:ARG0 (y / you))
+
+# ::id lpp_en.32 ::annotator lpp_1943.568 
+# ::tok But there is nobody here to judge !
+(n / nobody
+	:location (h / here)
+	:ARG1-of (j / judge-01))
+
+# ::id lpp_en.33 ::annotator lpp_1943.578
+# ::tok It is much more difficult to judge oneself than to judge others .
+(d / difficult
+	:degree (m / more
+		:degree (m2 / much))
+	:domain (j / judge-01
+		:ARG0 (o2 / one)
+		:ARG1 o2)
+	:compared-to (j2 / judge-01
+		:ARG1 (o / other)))
+
+# ::id lpp_en.34 ::annotator lpp_1943.610
+# ::tok That is a queer hat you are wearing . 
+(h2 / hat
+	:mod (q2 / queer)
+	:domain (t2 / that)
+	:ARG1-of (w2 / wear-01))
+
+# ::id lpp_en.35 ::annotator lpp_1943.624
+# ::tok Conceited people never hear anything but praise . 
+(h / hear-01 :polarity -
+	:ARG0 (p / person
+		:mod (c / conceit))
+	:ARG1 (a / anything
+		:concession (p2 / praise-01))
+	:time (e / ever))
+
+# ::id lpp_en.36 ::annotator lpp_1943.627
+# ::tok To admire mean that you regard me as the handsomest , the best - dressed , the richest , and the most intelligent man on this planet . 
+(m / mean-01
+	:ARG1 (a / admire-01)
+	:ARG2 (r / regard-01
+		:ARG0 (y / you)
+		:ARG1 (i / i)
+		:ARG2 (m6 / man
+			:mod (h / handsome
+				:degree (m2 / most))
+			:ARG1-of (d / dress-01
+				:manner (w / well
+					:degree (m3 / most)))
+			:mod (r2 / rich
+				:degree (m4 / most))
+			:ARG1-of (i2 / intelligent-01
+				:degree (m5 / most))
+			:location (p2 / planet
+				:mod (t / this)))))
+
+# ::id lpp_en.37 ::annotator lpp_1943.638
+# ::tok " I am drinking , " replied the tippler , with a lugubrious air . 
+(r / reply-01
+	:ARG0 (p / person
+		:ARG0-of (t / tipple-01))
+	:ARG2 (d / drink-01
+		:ARG0 p)
+	:manner (l / lugubrious))
+
+# ::id lpp_en.38 ::annotator lpp_1943.649
+# ::tok The fourth planet belonged to a businessman . 
+(b / belong-01
+	:ARG0 (p / planet
+		:ord (o / ordinal-entity :value 4))
+	:ARG1 (b3 / businessman))
+
+# ::id lpp_en.39 ::annotator lpp_1943.667
+# ::tok I have so much to do ! 
+(o / obligate-01
+	:ARG1 (i / i)
+	:ARG2 (d / do-02
+		:ARG1 (m / much
+			:degree (s / so))))
+
+# ::id lpp_en.40 ::annotator lpp_1943.682
+# ::tok The businessman suddenly realized that there was no hope of being left in peace until he answered this question . 
+(r / realize-01
+	:ARG0 (b / businessman)
+	:ARG1 (h / hopeful-03 :polarity -
+		:ARG1 (l / leave-14
+			:ARG1 (p / peace
+				:domain b))
+		:time (u / until
+			:op1 (a / answer-01
+				:ARG0 b
+				:ARG1 (q / question-01
+					:ARG1 (t / this)))))
+	:manner (s / sudden))
+
+# ::id lpp_en.41 ::annotator lpp_1943.722
+# ::tok When you find a diamond that belongs to nobody , it is yours . 
+(b / belong-01
+	:ARG0 d
+	:ARG1 (y / you)
+	:condition (f / find-01
+		:ARG0 y
+		:ARG1 (d / diamond
+			:ARG0-of (b2 / belong-01
+				:ARG1 (n / nobody)))))
+
+# ::id lpp_en.42 ::annotator lpp_1943.757
+# ::tok There was just enough room on it for a street lamp and a lamplighter . 
+(a2 / accommodate-01
+	:ARG0 (i / it)
+	:ARG1 (a / and
+		:op1 (l / lamp
+			:mod (s / street))
+		:op2 (p / person
+			:ARG0-of (l2 / light-04
+ 				:ARG1 (l3 / lamp))))
+	:extent (e / enough
+		:mod (j / just)))
+
+# ::id lpp_en.43 ::annotator lpp_1943.779
+# ::tok Orders are orders . 
+(o / order
+	:domain (o2 / order))
+
+# ::id lpp_en.44 ::annotator lpp_1943.811
+# ::tok When you want to rest , you will walk - - and the day will last as long as you like . 
+(w / walk-01
+      :ARG0 (y / you)
+      :time (w2 / want-01
+            :ARG0 y
+            :ARG1 (r / rest-01
+                  :ARG1 y))
+      :ARG0-of (c / cause-01
+            :ARG1 (l / last-01
+                  :ARG1 (d / day)
+                  :ARG2 (t / temporal-quantity
+                        :degree (e / equal)
+                        :compared-to (l2 / like-02
+                              :ARG0 y)))))
+
+# ::id lpp_en.45 ::annotator lpp_1943.815
+# ::tok " I am unlucky , " said the lamplighter . 
+(s / say-01
+	:ARG0 (p / person
+		:ARG0-of (l / light-04
+			:ARG1 (l2 / lamp)))
+	:ARG1 (l3 / lucky
+		:domain p
+		:polarity -))
+
+# ::id lpp_en.46 ::annotator lpp_1943.944
+# ::tok It is unnecessary . 
+(n / need-01
+	:ARG1 (i / it)
+	:polarity -)
+
+# ::id lpp_en.47 ::annotator lpp_1943.1046
+# ::tok " I am right here , " the voice said , " under the apple tree . " 
+(s / say-01
+	:ARG0 (v / voice)
+	:ARG1 (i / i
+		:location (h / here
+			:location (u / under
+ 				:op1 (t / tree
+					:mod (a / apple)))
+			:mod (r / right))))
+
+# ::id lpp_en.48 ::annotator lpp_1943.1189
+# ::tok " They are in a great hurry , " said the little prince .  
+(s / say-01
+	:ARG0 (p / prince
+		:mod (l / little))
+	:ARG1 (h / hurry-01
+		:ARG1 (t / they)
+		:degree (g / great)))
+
+# ::id lpp_en.49 ::annotator lpp_1943.1213
+# ::tok Computations have been made by experts .
+(m / make-01
+	:ARG0 (p / person
+		:ARG1-of (e / expert-01))
+	:ARG1 (t / thing
+		:ARG1-of (c / compute-01)))
+
+# ::id lpp_en.50 ::annotator lpp_1943.1298
+# ::tok Give me some of it to drink ... 
+(g / give-01
+	:ARG0 (y / you)
+	:ARG1 (t / thing
+		:ARG1-of (i3 / include-91
+			:ARG2 (i / it))
+		:quant (s / some))
+	:ARG2 (i2 / i)
+	:mode imperative
+	:purpose (d / drink-01
+		:ARG0 i2
+		:ARG1 t))

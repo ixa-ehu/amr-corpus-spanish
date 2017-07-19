@@ -1,0 +1,513 @@
+# ::id lpp_es.1 ::annotator NMA
+# ::tok Por tanto , puedes imaginarte mi asombro cuando una extraña vocecita me despertó al amanecer .
+(c / causar
+	:ARG1 (p / posible
+		:ARG1 (i / imaginar
+			:ARG0 (t / tú)
+			:ARG1 (a / asombrar			
+				:ARG1 (y / yo)
+				:tiempo (a2 / amanecer
+					:tiempo-de (d / despertar
+						:ARG1 y
+						:ARG0 (v / voz
+							:mod (e / extraño)
+							:mod (p2 / pequeño))))))))
+
+# ::id lpp_es.2 ::annotator NMA
+# ::tok Él me contestó : " Eso no importa " .
+(c / contestar
+	:ARG0 (e / él)
+	:ARG1  (y / yo)
+	:ARG2 (i / importar :polaridad -
+		:ARG1 (e2 / eso)))
+
+# ::id lpp_es.3 ::annotator NMA
+# ::tok Dibújame una oveja ...
+(d / dibujar
+	:ARG0 (t / tú)
+	:ARG1 (o / oveja)
+	:ARG2 (y / yo)
+	:modo imperativo)
+
+# ::id lpp_es.4 ::annotator NMA
+# ::tok Todo es muy pequeño donde vivo .
+(p / pequeño
+	:campo (t / todo)
+	:grado (m / muy)
+	:ubicación (v / vivir
+		:ARG0 (y / yo)))
+
+# ::id lpp_es.5 ::annotator NMA
+# ::tok ¡ Qué gracioso !
+(g / gracioso
+	:grado (t / tan))
+
+# ::id lpp_es.6 ::annotator NMA
+# ::tok ¿ De qué planeta eres ?
+(s / ser-de-91
+	:ARG1 (t / tú)
+	:ARG2 (p / planeta
+		:campo (a / amr-desconocido)))
+
+# ::id lpp_es.7 ::annotator NMA
+# ::tok ¿ De dónde vienes hombrecito mío ?
+(d / decir
+	:ARG0 y
+	:ARG1 (v / venir
+		:ARG1 (h / hombre
+			:mod (p / pequeño)
+			:posee (y / yo))
+		:ARG3 (a / amr-desconocido))
+	:ARG2 h)
+
+# ::id lpp_es.8 ::annotator NMA
+# ::tok Cuando un astrónomo descubre uno de estos , no le asigna un nombre sino solamente un número .
+(e / en-vez-de-91
+	:ARG1 (a3 / asignar
+		:ARG0 a
+		:ARG1 (n2 / número)
+		:ARG2 c
+		:manera (s / solamente))
+	:ARG2 (a2 / asignar
+		:ARG0  a
+		:ARG1  (n / nombre)
+		:ARG2  c)
+	:tiempo (d / descubrir
+		:ARG0 (a / astrónomo)
+		:ARG1 (c / cosa
+			:cant 1
+			:ARG1-de (i / incluir-91
+				:ARG2 (e2 / esto :masc e2)))))
+
+# ::id lpp_es.9 ::annotator NMA
+# ::tok Los niños siempre deberían mostrarse muy pacientes con los mayores .
+(r / recomendar
+	:ARG1 (m / mostrar
+		:ARG0 (n / niño)
+		:ARG1 (p / paciencia
+			:grado (m2 / mucho))
+		:ARG2 (p2 / persona
+			:mod (e / edad
+				:grado (m3 / más)))
+		:tiempo (s / siempre)))
+
+# ::id lpp_es.10 ::annotator NMA
+# ::tok Pero sin duda , para los que entendemos la vida , las cifras son asuntos de indiferencia .
+(c / contrastar
+	:ARG2 (o / opinar
+		:ARG0 (p / persona
+			:ARG0-de (e / entender
+				:ARG1 (v / vida)))
+		:ARG1 (a / asunto
+			:mod (i / indiferencia)
+			:campo (c / cifra)))
+	:mod (d / dudar :polaridad -))
+
+# ::id lpp_es.11 ::annotator NMA
+# ::tok Olvidar a un amigo es triste .
+(t / triste
+	:campo (o / olvidar
+		:ARG1 (p / persona
+			:ARG0-de (t2 / tener-rol-rel-91
+	        		:ARG2 (a / amigo)))))
+
+# ::id lpp_es.12 ::annotator NMA
+# ::tok No todos han tenido un amigo .
+(t / tener :polaridad -
+	:ARG0 (p / persona
+		:mod (t2 / todo))
+	:ARG1 (p2 / persona
+		:ARG0-de (t3 / tener-rol-rel-91
+			:ARG1 p
+	               	:ARG2 (a / amigo))))
+
+# ::id lpp_es.13 ::annotator NMA
+# ::tok Pero no tengo el éxito asegurado para nada .
+(c /  contrastar
+	:ARG2 (t / tener :polaridad -
+		:ARG0 (y / yo)
+		:ARG1 (e / éxito)
+		:mod (s / seguro)
+		:grado (p / para-nada)))
+
+# ::id lpp_es.14 ::annotator NMA
+# ::tok Pero el principito no respondió .
+(c / contrastar
+	:ARG2 (r / responder :polaridad -
+		:ARG0 (p / príncipe
+			:mod (p2 / pequeño))))
+
+# ::id lpp_es.15 ::annotator NMA
+# ::tok Y me quedaba tan poca agua potable que me temía lo peor .
+(y2 / y
+	:op1 (c / causar
+		:ARG0 (q / quedar
+			:ARG1 (a / agua
+				:mod (p / potable)
+				:mod (p2 / poco
+					:grado (t / tan)))
+			:ARG2 (y / yo))
+		:ARG1 (t / temer
+			:ARG0 y
+			:ARG1 (m / malo
+				:grado (m2 / máximo)))))
+
+# ::id lpp_es.16 ::annotator NMA
+# ::tok " Creo que es la hora de desayunar " , añadió ella al instante .
+(a / añadir
+	:ARG0 (e / ella)
+	:ARG1 (c / creer
+		:ARG0 e
+		:ARG1 (h / hora
+			:propósito (d / desayunar)))
+	:tiempo (a2 / al-instante))
+
+# ::id lpp_es.17 ::annotator NMA
+# ::tok Pero , como dijo él , " ¡ Nunca se sabe ! " .
+(c / contrastar
+	:ARG2 (d / decir
+		:ARG0 (e / él)
+		:ARG1 (s / saber :polaridad -
+			:tiempo (n /nunca))))
+
+# ::id lpp_es.18 ::annotator NMA
+# ::tok Las erupciones volcánicas son como el fuego de una chimenea .
+(p / parecer
+	:ARG0 (e / erupción
+		:mod (v / volcánico))
+	:ARG1 (s / ser-de-91
+		:ARG1 (f / fuego)
+		:ARG2 (c / chimenea)))
+
+# ::id lpp_es.19 ::annotator NMA
+# ::tok El creyó que nunca querría volver .
+(c / creer
+	:ARG0 (e / él)
+	:ARG1 (q / querer :polaridad -
+		:ARG0 e
+		:ARG1 (v / volver
+			:ARG1 e)
+		:tiempo (n / nunca)))
+
+# ::id lpp_es.20 ::annotator NMA
+# ::tok Te pido perdón .
+(p / pedir
+	:ARG0 (y / yo)
+	:ARG1 (p2 / perdonar
+		:ARG0 t
+		:ARG1 y)
+	:ARG2 (t / tú))
+
+# ::id lpp_es.21 ::annotator NMA
+# ::tok ¡ Ahora vete !
+(i / ir :modo imperativo
+	:ARG0 (t / tú)
+	:tiempo (a / ahora))
+
+# ::id lpp_es.22 ::annotator NMA
+# ::tok Él comenzó , por lo tanto , a visitarlos para ampliar su conocimiento .
+(c / causar
+	:ARG1 (c2 / comenzar
+		:ARG0 (e / él)
+		:ARG1 (v / visitar
+			:ARG0 e
+			:ARG1 (e2 / entidad :sinespecificar (l/lo)))
+		:propósito (a / ampliar
+			:ARG0 e
+			:ARG1 (c3 / conocimiento
+				:posee e))))
+
+# ::id lpp_es.23 ::annotator NMA
+# ::tok Para ellos , todos los hombres son súbditos .
+(o / opinar
+	:ARG0 (e / ellos)
+	:ARG1 (s / súbdito
+		:campo (h / hombre
+			:mod (t / todo))))
+
+# ::id lpp_es.24 ::annotator NMA
+# ::tok El principito buscó un sitio para sentarse por todos lados , pero todo el planeta estaba cubierto y obstruido por el magnífico manto de armiño del rey .
+(c / contrastar
+	:ARG0 (b / buscar
+		:ARG0 (p / príncipe
+			:mod (p2 / pequeño))
+		:ARG2 (s / sitio
+			:propósito (s / sentar
+				:ARG1 p))
+		:ARG1 (l / lado
+			:mod (t / todo)))
+	:ARG1 (y / y
+		:op1 (c2 / cubrir
+			:ARG1 (p3 / planeta
+				:mod (t2 / todo))
+			:ARG2 (m / manto
+				:mod (m2 / magnífico)
+				:consistir-en (a / armiño)
+				:posee (r / rey)))
+		:op2 (o / obstruir
+			:ARG0 m
+			:ARG1 p3)))
+
+# ::id lpp_es.25 ::annotator NMA
+# ::tok " Bostezar en presencia del rey contradice el protocolo " , le dijo el monarca .
+(d / decir
+	:ARG0 (m / monarca)
+	:ARG1 (c / contradecir
+		:ARG0 (b / bostezar
+			:ubicación (p / presencia
+				:posee (r / rey)))
+		:ARG1 (p2 / protocolo))
+	:ARG2 (e / entidad
+		:sinespecificar (l / le)))
+
+# ::id lpp_es.26 ::annotator NMA
+# ::tok " No puedo evitarlo " , respondió el principito , verdaderamente avergonzado .
+(r / responder
+	:ARG0 (p / príncipe
+		:mod (p2 / pequeño))
+	:ARG2 (p3/ posible :polaridad -
+		:ARG1 (e / evitar
+			:ARG0 p
+			:ARG1 (e / entidad
+				:sinespecificar (l / lo))))
+	:mod (a / avergonzado
+		:manera (v / verdadero)))
+
+# ::id lpp_es.27 ::annotator NMA
+# ::tok He tenido un largo viaje y no he dormido nada ...
+(y / y
+	:op1 (t / tener
+		:ARG0 (y2 / yo)
+		:ARG1 (v / viaje
+			:mod (l / largo)))
+	:op2 (d / dormir :polaridad -
+		:ARG0 y2
+		:mod (n / nada)))
+
+# ::id lpp_es.28 ::annotator NMA
+# ::tok Hace años que no veo a nadie bostezar .
+(v / ver :polaridad -
+	:ARG0 (y / yo)
+	:ARG1 (b / bostezar
+		:ARG0 (n / nadie))
+	:tiempo (d / desde
+		:op1 (c / cantidad-temporal
+			:cant (m / más-de
+				:op1 1)
+			:unidad (a / año)))) 
+
+# ::id lpp_es.29 ::annotator NMA
+# ::tok Era un monarca absoluto .
+(m / monarca
+	:masc m
+	:campo (e / entidad
+		:sinnombre (s / sinnombre))
+	:mod (a / absoluto))
+
+# ::id lpp_es.30 ::annotator NMA
+# ::tok ¿ Me puedo sentar ? , preguntó tímidamente el principito .
+(p / preguntar
+	:ARG0 (p2/ príncipe
+		:mod (p3 / pequeño))
+	:ARG1 (p4 / permitir :modo imperativo
+		:ARG1 (s / sentar
+			:ARG1 p2))
+	:manera (t / tímido))
+
+# ::id lpp_es.31 ::annotator NMA
+# ::tok No te vayas .
+(i / ir :polaridad - 
+	:modo imperativo
+	:ARG0 (t / tú))
+
+# ::id lpp_es.32 ::annotator NMA
+# ::tok ¡ Pero aquí no hay nadie a quien juzgar !
+(c / contrastar 
+	:ARG2 (n / nadie
+		:polaridad -
+		:ARG1-de (j / juzgar)
+		:ubicación (a / aquí)))
+
+# ::id lpp_es.33 ::annotator NMA
+# ::tok Es mucho más difícil juzgarse a sí mismo que juzgar a otros .
+(d / difícil
+	:grado (m / más
+		:grado (m2 / mucho))
+	:campo (j / juzgar
+		:ARG0 (u / uno)
+		:ARG1 u)
+	:comparado-con (j2 / juzgar
+		:ARG1 (o / otro)))
+
+# ::id lpp_es.34 ::annotator NMA
+# ::tok ¡ Qué sombrero tan raro llevas !
+(s / sombrero
+	:mod (r / raro
+		:grado (t / tan))
+	:ARG1-de (l / llevar
+		:ARG0 (t2 / tú)))
+
+# ::id lpp_es.35 ::annotator NMA
+# ::tok Los vanidosos nunca escuchan nada que no sea elogios .
+(e / escuchar :polaridad -
+	:ARG0 (p / persona
+		:mod (v / vanidoso))
+	:ARG1 (n / nada)
+	:tiempo (n2 / nunca)
+	:condición (e2 / elogio :polaridad -
+		:campo n))
+
+# ::id lpp_es.36 ::annotator NMA
+# ::tok Admirar significa que me consideras el hombre más guapo , el mejor vestido , el más rico y el más inteligente del planeta .
+(s / significar
+	:ARG1 (a / admirar)
+	:ARG0 (c / considerar
+		:ARG0 (t / tú)
+		:ARG1 (y / yo)
+		:ARG2 (h / hombre
+			:mod (g / guapo
+				:grado (m / máximo))
+			:ARG1-de (v / vestir
+				:manera (b / bien
+					:grado (m2 / máximo)))
+			:mod (r / rico
+				:grado (m3 / máximo))
+			:mod (i2 / inteligente
+				:grado (m4 / máximo))
+			:ubicación (p / planeta))))
+
+# ::id lpp_es.37 ::annotator NMA
+# ::tok " Estoy bebiendo " , respondió el bebedor , con aire lúgubre .
+(r / responder
+	:ARG0 (p / persona
+		:ARG0-de (b / beber))
+	:ARG2 (b2 / beber
+		:ARG0 p)
+	:manera (l / lúgubre))
+
+# ::id lpp_es.38 ::annotator NMA
+# ::tok El cuarto planeta era de un hombre de negocios .
+(p / pertenecer
+	:ARG0 (p2 / planeta
+		:ord (e / entidad-ordinal :valor 4))
+	:ARG1 (h / hombre
+		:mod (n / negocio)))
+
+# ::id lpp_es.39 ::annotator NMA
+# ::tok ¡ Tengo tanto que hacer !
+(o / obligar
+	:ARG1 (y / yo)
+	:ARG2 (h / hacer
+		:ARG1 (t / tanto)))
+
+# ::id lpp_es.40 ::annotator NMA
+# ::tok De repente , el hombre de negocios se dio cuenta que no tenía ninguna esperanza de que lo dejaran en paz hasta que contestase esta pregunta .
+(p / percatar
+	:ARG0 (h / hombre
+		:mod (n / negocio))
+	:ARG1 (e / esperar :polaridad -
+		:ARG0 h
+		:ARG1 (d2 / dejar
+			:ARG0 (e2 / entidad
+				:sinnombre (s / sinnombre))
+			:ARG1 (p2 / paz
+				:campo h))
+		:time (h2 / hasta
+			:op1 (c / contestar
+				:ARG0 h
+				:ARG2 (p3 / pregunta
+					:mod (e2 / esto)))))
+	:manera (d / de-repente))
+
+
+# ::id lpp_es.41 ::annotator NMA
+# ::tok Cuando encuentras un diamante que no le pertenece a nadie , es tuyo .
+(p2 / pertenecer
+	:ARG0 d
+	:ARG1 t
+	:condición (e / encontrar
+		:ARG1 (d / diamante
+			:ARG0-de (p / pertenecer :polaridad -
+				:ARG1 (n / nadie)))
+		:ARG0 (t / tú)))
+
+# ::id lpp_es.42 ::annotator NMA
+# ::tok Tenía el espacio justo para una farola y un farolero .
+(t / tener
+	:ARG0 (e / entidad
+		:sinnombre (s / sinnombre))
+	:ARG1 (e2 / espacio
+		:mod (j / justo)
+		:ARG2-de (c / caber
+			:ARG1 (y / y
+				:op1 (f / farola)
+				:op2 (f2 / farolero)))))
+
+# ::id lpp_es.43 ::annotator NMA
+# ::tok Las órdenes son órdenes .
+(o / órden
+	:campo (o2 / órden))
+
+# ::id lpp_es.44 ::annotator NMA
+# ::tok Caminarás cuando quieras descansar y el día durará tanto como quieras .
+(d / durar
+	:ARG1 (d2 / día)
+	:ARG2 (t / tanto
+		:grado (i / igual)
+		:comparado-con (q / querer
+			:ARG0 (t2 / tú)))
+	:condición (c / caminar
+		:ARG0 t2
+		:tiempo (q2 / querer
+			:ARG0 t2
+			:ARG1 (d3 / descansar))))
+
+# ::id lpp_es.45 ::annotator NMA
+# ::tok " Soy desafortunado " , dijo el farolero .
+(d / decir
+	:ARG0 (f / farolero)
+	:ARG1 (a / afortunado
+		:campo (y / yo)
+		:polaridad -))
+
+# ::id lpp_es.46 ::annotator NMA
+# ::tok Es innecesario .
+(n / necesitar
+	:ARG1 (e / entidad
+		:sinnombre (s / sinnombre)
+		:masc e)
+	:polaridad -)
+
+# ::id lpp_es.47 ::annotator NMA
+# ::tok " Estoy aquí " , dijo la voz , " debajo del manzano " .
+(d / decir
+	:ARG0 (v / voz)
+	:ARG1 (e / estar-ubicado-en-91
+		:ARG1 (y / yo)
+		:ARG2 (a / aquí
+			:ubicación (d2 / debajo
+				:op1 (m / manzano)))))
+
+# ::id lpp_es.48 ::annotator NMA
+# ::tok " Tienen mucha prisa " , dijo el principito .
+(d / decir
+	:ARG0 (p / príncipe
+		:mod (p2 / pequeño))
+	:ARG1 (a / apresurado
+		:campo (e / entidad 
+			:sinnombre (s / sinnombre))
+		:grado (m / muy)))
+
+# ::id lpp_es.49 ::annotator NMA
+# ::tok Los expertos han hecho los cálculos .
+(c / calcular
+	:ARG0 (p / persona
+		:mod (e / experto)))
+
+# ::id lpp_es.50 ::annotator NMA
+# ::tok Dame algo de beber ...
+(d / dar :modo imperativo
+	:ARG0 (t / tú)
+	:ARG2 (y / yo)
+	:ARG1 (a / algo
+		:propósito (b / beber)))
